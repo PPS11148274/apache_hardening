@@ -1,7 +1,12 @@
-# RA3_1
-# pepe
+# RA3_1 CSP
 
-Introduction [INTRO](URL_TASKS) :
+
+INTRODUCCIÓN:
+Política de Seguridad del Contenido o ( CSP ) ‑ del inglés Content Security Policy ‑ es una capa
+de seguridad adicional que ayuda a prevenir y mitigar algunos tipos de ataque, incluyendo Cross
+Site Scripting ( XSS ) y ataques de inyección de datos. Estos ataques son usados con diversos
+propósitos, desde robar información hasta desfiguración de sitios o distribución de malware.
+En esta tarea se añadira la política a un serividor Apache.
 
 # Tasks
 
