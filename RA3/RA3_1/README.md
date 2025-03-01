@@ -8,37 +8,11 @@ Site Scripting ( XSS ) y ataques de inyección de datos. Estos ataques son usado
 propósitos, desde robar información hasta desfiguración de sitios o distribución de malware.
 En esta tarea se añadira la política a un serividor Apache.
 
-# Aplica HSTS
-
-* Eliminar autoindex para que no aparecta ningún resultado si el recurso no se encuentra:
+# Carga la imagen desde hub docker
 ```
- $ sudo a2dismod autoindex -f
+$ docker pull 11148274/hardenowasp:latest
 ```
-* Eliminar información del servidor modificando en el archivo /etc/apache2/apache2.conf
- ```
- Servertokens ProductOnly
- ServerSignature Off
+# Lanza el contenedor
 ```
-# fuerza la conexión HTTPS
-Habilitar el módulo Headers y el módulo ssl
+$ sudo docker run --detach --rm -p 8080:80 -p 8181:443 --name="harnowasp" hardenowasp
 ```
-$ Sudo a2enmod headers
-$ sudo a2enmod ssl
-```
-
-
-Intro...
-
-![IMG](URL_IMG)
-
-Example code:
-
-```
-$ git clone https://github.com/openssh/openssh-portable
-$ patch -p1 < ~/path/to/openssh.patch
-$ autoreconf
-$ ./configure
-$ make
-```
-
-# Task_2
