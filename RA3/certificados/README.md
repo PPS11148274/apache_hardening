@@ -1,26 +1,12 @@
-# RA3_1
+# Instalación de certificado en servidor Apache
 
-Introduction [INTRO](URL_TASKS) :
-
-# Tasks
-
-* [TASK_1](#URL_TASK_1): XXX
-* [TASK_2](#URL_TASK_2): XXX
-
-# Task_1
-
-Intro...
-
-![IMG](URL_IMG)
-
-Example code:
-
+INTRODUCCIÓN:
+En este ejercicio se instala un certificado autofirmado para el servidor Apache
+# Carga la imagen desde hub docker
 ```
-$ git clone https://github.com/openssh/openssh-portable
-$ patch -p1 < ~/path/to/openssh.patch
-$ autoreconf
-$ ./configure
-$ make
+$ docker pull 11148274/certificado:latest
 ```
-
-# Task_2
+# Lanza el contenedor
+```
+$ sudo docker run --detach --rm -p 8080:80 -p 8181:443 --name="certificado" certificado
+```
