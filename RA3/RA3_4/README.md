@@ -1,26 +1,12 @@
-# RA3_1
+# RA3_4 Evitar ataques DDoS
 
-Introduction [INTRO](URL_TASKS) :
-
-# Tasks
-
-* [TASK_1](#URL_TASK_1): XXX
-* [TASK_2](#URL_TASK_2): XXX
-
-# Task_1
-
-Intro...
-
-![IMG](URL_IMG)
-
-Example code:
-
+INTRODUCCIÓN:
+Apache nos provee con un módulo llamado mod_evasive que permite evitar ataques de denegación de servicio (DoS) mediante el escaneo constante de los conexiones entrantes que serán baneadas en el momento que se alcance el umbral establecido en la configuración del módulo. 
+# Carga la imagen desde hub docker
 ```
-$ git clone https://github.com/openssh/openssh-portable
-$ patch -p1 < ~/path/to/openssh.patch
-$ autoreconf
-$ ./configure
-$ make
+$ docker pull 11148274/evasive:latest
 ```
-
-# Task_2
+# Lanza el contenedor
+```
+$ sudo docker run --detach --rm -p 8080:80 -p 8181:443 --name="evasive" evasive
+```
