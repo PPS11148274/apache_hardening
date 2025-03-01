@@ -8,12 +8,24 @@ Site Scripting ( XSS ) y ataques de inyección de datos. Estos ataques son usado
 propósitos, desde robar información hasta desfiguración de sitios o distribución de malware.
 En esta tarea se añadira la política a un serividor Apache.
 
-# Tasks
+# Aplica HSTS
 
-* [TASK_1](#URL_TASK_1): XXX
-* [TASK_2](#URL_TASK_2): XXX
+* Eliminar autoindex para que no aparecta ningún resultado si el recurso no se encuentra:
+```
+ $ sudo a2dismod autoindex -f
+```
+* Eliminar información del servidor modificando en el archivo /etc/apache2/apache2.conf
+ ```
+ Servertokens ProductOnly
+ ServerSignature Off
+```
+# fuerza la conexión HTTPS
+Habilitar el módulo Headers y el módulo ssl
+```
+$ Sudo a2enmod headers
+$ sudo a2enmod ssl
+```
 
-# Task_1
 
 Intro...
 
