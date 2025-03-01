@@ -1,26 +1,13 @@
-# RA3_1
+# RA3_3 Reglas OWASP
 
-Introduction [INTRO](URL_TASKS) :
-
-# Tasks
-
-* [TASK_1](#URL_TASK_1): XXX
-* [TASK_2](#URL_TASK_2): XXX
-
-# Task_1
-
-Intro...
-
-![IMG](URL_IMG)
-
-Example code:
-
+INTRODUCCIÓN:
+Pero la OWASP provee una configuración por defecto que incluye una protección para las reglas más comunes. Así que lo mejor es empezar por este conjunto de reglas y luego ir añadiendo las propias.
+Una solución de compromiso para no dar todas las reglas, se muestra una configuración que tiene OWASP. Para instalarlo en nuestro servidor.
+# Carga la imagen desde hub docker
 ```
-$ git clone https://github.com/openssh/openssh-portable
-$ patch -p1 < ~/path/to/openssh.patch
-$ autoreconf
-$ ./configure
-$ make
+$ docker pull 11148274/owasp:latest
 ```
-
-# Task_2
+# Lanza el contenedor
+```
+$ sudo docker run --detach --rm -p 8080:80 -p 8181:443 --name="owasp" owasp
+```
