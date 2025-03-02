@@ -10,7 +10,7 @@ En esta tarea se añadira la política a un serividor Apache.
 
 # Carga la imagen desde hub docker
 ```
-$ docker pull https://hub.docker.com/repository/docker/pps11148274/hardenowasp/general
+$ docker pull pps11148274/hardenowasp:latest
 ```
 # Lanza el contenedor
 ```
