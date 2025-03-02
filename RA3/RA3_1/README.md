@@ -7,6 +7,15 @@ de seguridad adicional que ayuda a prevenir y mitigar algunos tipos de ataque, i
 Site Scripting ( XSS ) y ataques de inyección de datos. Estos ataques son usados con diversos
 propósitos, desde robar información hasta desfiguración de sitios o distribución de malware.
 En esta tarea se añadira la política a un serividor Apache.
+#### En primer lugar es necesario crear en _/etc/apache2/sites-available_ el archivo de configuración de nuestro sitio website1.conf e introducir las siguientes modificaciones
+<image src="/RA3/RA3_1/header y ssl.png" alt="Modificación del archivo website1.conf">
+<p>Habilita módulos header y ssl </p>
+<p>Con los siguientes comando se habilitan los módulos necesarios para esta práctica</p>
+
+* $ sudo a2enmod headers
+* $ sudo a2enmod ssl
+
+  
 # Archivo dockerfile
 Con el siguiente dockerfile se construye la imagen necesaria para el despliegue
 ```
