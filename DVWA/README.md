@@ -13,3 +13,5 @@ sudo systemctl start mariadb
 ```
 Una vez hecho esto se crea la Base de Datos, usuario y contraseña como se ve en la imagen inferior.\
 ![Crea base de datos](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/asset/crea_bd.png)
+Ahora ya se puede acceder al servidor DVWA desde el navegador como se ve.\
+![Acceso al servidor DVWA]
