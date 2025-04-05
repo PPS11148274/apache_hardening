@@ -5,6 +5,6 @@ Como se ve en la imagen, se intenta acceder a archivo passwd del servidor envian
 Esto es posible porque el servidor permite enviar pings y no tiene una validación adecuada.\
 La IP introducida corresponde con la del servidor DVWA.
 ![Ataque Commnad Injection](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/commnad_injection/asset/command_injection.png)\
-Se podría acceder a otras archivos e incluso borrarlos o modificarlos.
+Se podría acceder a otros archivos e incluso borrarlos o modificarlos.
 
 
