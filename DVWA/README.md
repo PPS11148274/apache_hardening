@@ -11,5 +11,5 @@ A continuación se inicia apache y mariadb.
 sudo systemctl start apache2
 sudo systemctl start mariadb
 ```
-Una vez hecho esto se crea la Base de Datos, usuario y contraseña.\
-![Crea base de datos](/apache_hardening/DVWA/asset/crea_bd.png)
+Una vez hecho esto se crea la Base de Datos, usuario y contraseña como se ve en la imagen inferior.\
+![Crea base de datos](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/asset/crea_bd.png)
