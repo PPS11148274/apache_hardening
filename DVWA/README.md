@@ -16,3 +16,4 @@ Una vez hecho esto se crea la Base de Datos, usuario y contraseña como se ve en
 Ahora ya se puede acceder al servidor DVWA desde el navegador como se ve.\
 ![Acceso al servidor DVWA](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/asset/acceso_DVWA.png)\
 El último paso una vez preparado todo el entorno es entrar al servidor con las credenciales (admin/password).
+![Servidor DVWA](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/asset/DVWA.png)\
