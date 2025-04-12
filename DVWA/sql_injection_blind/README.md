@@ -18,7 +18,7 @@ Se puede averiguar así la longitud del nombre de la base de datos probando esto
 1’ length(database)())=’1
 ```
 Se va cambiando el segundo “1” por (2,3,4,5…) hasta encontrar uno que de positivo, como se ve en la imagen siguiente (enmarcado en rojo).
-![Resultado SQL injection blind] (). \
+![Resultado SQL injection blind] (https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/sql_injection_blind/asset/result_sql_blind.png). \
 
 
 
