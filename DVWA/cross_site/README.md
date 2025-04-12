@@ -17,5 +17,6 @@ El siguiente códio HTML contiene la acción maliciosa que cambiará la contrase
 </body>
 </html>
 ```
-![Inicio CSRF](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/cross_site/asset/CSRF_cambio_contrase%C3%B1a.png) 
-![Enlace malicioso]()
+![Inicio CSRF](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/cross_site/asset/CSRF_cambio_contrase%C3%B1a.png) \
+
+![Enlace malicioso](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/cross_site/asset/enlace_malicioso.png)
