@@ -1,4 +1,6 @@
-El cross-site request forgery (CSRF) es un ciberataque web que consiste en realizar tareas dentro de una aplicación por medio de la ejecución de un enlace en el navegador de la víctima. El payload de este ciberataque se ejecuta por medio de un enlace que se crea a partir de una petición que contiene la acción maliciosa planeada por la víctima. Para entender de manera práctica cómo todo esto es posible, a continuación veremos un ejemplo de cross-site request forgery en la aplicación deliberadamente vulnerable DVWA.
+El cross-site request forgery (CSRF) consiste en realizar tareas dentro de una aplicación por medio de la ejecución de un enlace en el navegador de la víctima. \
+Se envía un enlace que se crea a partir de una petición que contiene la acción maliciosa planeada por el atacente. \
+El siguiente códio HTML contiene la acción maliciosa que cambiará la contraseña automáticamente a (12345) al pinchar en el enlace.
 ```
 <!DOCTYPE html>
 <html lang="en">
