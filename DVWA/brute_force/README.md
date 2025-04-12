@@ -8,4 +8,7 @@ En la imagen anterior se ve (en rojo) el mensaje de error generado. Además, en 
 de sesión de la cookie (PHPSESSID), este código es necesario para el comando hydra. \
 En la siguiente imagen se ve enmarcado en rojo el comando hydra necesario. Se debe sustituir el identificado PHPSESSID por el que te proporcione
 tu navegador.
+![Lanza comando hidra](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/brute_force/asset/comando_hydra.png) \
+En la imagen anterior se ve el comando hydra en funcionamiento. El problema es que tras varias horas no ha conseguido las credenciales. \
+Tal vez con otro equipo más potente se pueda acelerar el proceso.
 
