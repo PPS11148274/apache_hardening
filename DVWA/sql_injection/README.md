@@ -8,5 +8,7 @@ Una muestra de esto, es buscar los usuarios y contraseñas del sistema en la BD.
 ```
 ‘ UNION SELECT user, password FROM users#
 ```
-En la imagen siguiente se ve el resultado que produce
+En la imagen siguiente se ve el resultado que produce este comando SQL. \
+![Resulado SQL injection](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/sql_injection/asset/resultado_SQL_injection.png) \
+Como se ve en la imagen, se obtienen los nombres y el hash de la contraseña.
 
