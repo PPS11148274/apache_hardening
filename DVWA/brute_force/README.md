@@ -10,7 +10,7 @@ En la siguiente imagen se ve enmarcado en rojo el comando hydra necesario. Se de
 tu navegador.
 ![Lanza comando hidra](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/brute_force/asset/comando_hydra.png) \
 En la imagen anterior se ve el comando hydra en funcionamiento. El problema es que tras varias horas no ha conseguido las credenciales. \
-Tal vez con otro equipo más potente se pueda acelerar el proceso.
+Tal vez con otro equipo más potente se pueda acelerar el proceso. \
 Como esto no funciona, se prueba una alternativa con una SQL injectión, se pone el comando SQL y cualquier contraseña aleatoria, como se ve a continuación.
 ![SQL_injection brute force](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/brute_force/asset/SQL_injection.png)
 Se ve el acceso permitido en la imagen siguiente.
