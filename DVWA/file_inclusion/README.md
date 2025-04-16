@@ -6,5 +6,5 @@ En esta sección se ejemplifica un ataque aprovechado esta vulnerabilidad.
 Se accede a la opción correspondiente (File Inclusion) y se ve que se pueden elegri entre tres archivos. \
 En al parámetro **page** aparece el nombre del archivo, y esto se puede modificar para mostrar lo que el atacante desee.
 ![Acceso file include](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/file_inclusion/asset/Inicio%20file%20include.png)
-![Carga file1]()
+![Carga file1]()https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/file_inclusion/asset/file1.png
 ![Muestra /etc/passwd]()
