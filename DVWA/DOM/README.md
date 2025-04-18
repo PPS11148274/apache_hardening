@@ -28,4 +28,14 @@ En la siguiente imagen se ve el script funcionando.
 
 ![Script funcionando](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/DOM/asset/script_funcionando.png)
 
+## Mitigación
+Se pueden tomar varias medidas para prevenir esta vulnerabilidad, como son:
+
+  - Validar y sanitizar todas las entradas del cliente
+
+  - Usar textContent en lugar de innerHTML
+
+  - Implementar CSP (Content Security Policy)
+
+  - Codificar adecuadamente los datos antes de insertarlos en el DOM
 
