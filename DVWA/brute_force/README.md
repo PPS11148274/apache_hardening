@@ -15,3 +15,12 @@ Como esto no funciona, se prueba una alternativa con una SQL injectión, se pone
 ![SQL_injection brute force](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/brute_force/asset/SQL_injection.png)
 Se ve el acceso permitido en la imagen siguiente.
 ![Acceso permitido](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/brute_force/asset/Brute_OK.png)
+
+## Mitigación
+
+Para prevenir esta vulnerabilidad:
+
+  - Implementar CAPTCHA.
+  - Limitar intentos fallidos y bloquear IPs temporalmente.
+  - Usar autenticación de dos factores (2FA).
+  - Aplicar un delay incremental entre intentos fallidos.
