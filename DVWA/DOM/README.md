@@ -14,5 +14,13 @@ En primer lugar, se accede a la opción adecuada (XSS DOM) y se selecciona el id
 
 ![Selección Idioma](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/DOM/asset/seleccion_idioma.png)
 
+Como se ve en la barra de direcciones, aparece el idioma seleccionado en el parámetro "default".
+Se puede insertar un script en ese parámetro, como el siguiente:
+
+```
+<script>alert('Nos la han colado')</script>
+```
+
+![Inserta script](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/DOM/asset/inserta_script.png)
 
 
