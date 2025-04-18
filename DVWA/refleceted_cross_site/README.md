@@ -1,6 +1,10 @@
+# Reflected Cross Site
+
 El cross-site request forgery (CSRF) consiste en realizar tareas dentro de una aplicación por medio de la ejecución de un enlace en el navegador de la víctima. \
 Se envía un enlace que se crea a partir de una petición que contiene la acción maliciosa planeada por el atacente. \
 El siguiente códio HTML contiene la acción maliciosa que cambiará la contraseña automáticamente a (12345) al pinchar en el enlace.
+
+## Level: Low
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -15,3 +19,5 @@ El siguiente códio HTML contiene la acción maliciosa que cambiará la contrase
 </body>
 </html>
 ```
+
+Una vez el usuario pincha en el enlace, la contraseña se cambia a la que se ha asignado en el código moalicioso.
