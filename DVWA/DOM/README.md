@@ -1,15 +1,15 @@
-# Brute Force
-## Esta sección del trabajo consiste en intentar entrar en el sistema mediante la furza bruta utilizando hydra.
+# XSS (DOM)
+
+XSS DOM (Cross-Site Scripting basado en DOM) es un tipo de vulnerabilidad de seguridad que se explota en el lado del cliente, específicamente en el Document Object Model (DOM) del navegador web, sin que el ataque pase por el servidor.
+
+### Características del XSS DOM en DVWA
+
+En el servidor **DVWA** el **XSS DOM** es una vulnerabilidad intencional que permite:
+
+    - El ataque se produce cuando JavaScript modifica dinámicamente el DOM basado en entradas no validadas.
+
+    - A diferencia de XSS reflejado o almacenado, este tipo no envía el script malicioso al servidor.
+
+    
 
 
-En primer se clona el repositorio del servidor DVWA desde https://github.com/digininja/DVWA.git.\ Se mueve ahora el contenido de la carpeta creada (DVWA) a la carpeta del servidor apache y se modifica el nombre del archivo de configuración de la distribución.
-
-sudo mv DVWA /var/www/html
-sudo cp /var/www/html/DVWA/config/config.inc.php.dist config.inc.php
-
-A continuación se inicia apache y mariadb.
-
-sudo systemctl start apache2
-sudo systemctl start mariadb
-
-Una vez hecho esto se crea la Base de Datos, usuario y contraseña como se ve en la imagen inferior.
