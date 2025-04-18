@@ -27,3 +27,8 @@ nc -lvnp 9001
 
 Luego, desde la barra de direcciones se puede ejecutar el archivo malicioso.
 
+![Ejecuta archivo](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/file_upload/asset/ejecuta_fichero.png)
+
+El Archivo se ha cargado y ejecutado pero no ha funcionado el reverse shell. ???
+
+
