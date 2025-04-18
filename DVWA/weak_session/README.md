@@ -5,3 +5,9 @@ que permiten a los atacantes secuestrar o suplantar sesiones activas adivinando 
 ## Level: Low
 
 Se accede a la opción Weak Session IDs y se genera una nueva sesión.
+
+![Genera sesión](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/weak_session/asset/genera_sesion.png)
+
+Como se puede ver en la siguiente imagen, si se generan más sesiones, las numera de uno en uno.
+
+
