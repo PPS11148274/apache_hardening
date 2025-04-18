@@ -10,6 +10,9 @@ En el servidor **DVWA** el **XSS DOM** es una vulnerabilidad intencional que per
 
     - A diferencia de XSS reflejado o almacenado, este tipo no envía el script malicioso al servidor.
 
-    
+En primer lugar, se accede a la opción adecuada (XSS DOM) y se selecciona el idioma.
+
+![Selección Idioma](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/DOM/asset/seleccion_idioma.png)
+
 
 
