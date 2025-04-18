@@ -23,4 +23,8 @@ Se puede insertar un script en ese parámetro, como el siguiente:
 
 ![Inserta script](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/DOM/asset/inserta_script.png)
 
+En la siguiente imagen se ve el script funcionando.
+
+![Script funcionando](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/DOM/asset/script_funcionando.png)
+
 
