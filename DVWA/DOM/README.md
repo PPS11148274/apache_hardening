@@ -2,6 +2,7 @@
 
 XSS DOM (Cross-Site Scripting basado en DOM) es un tipo de vulnerabilidad de seguridad que se explota en el lado del cliente, específicamente en el Document Object Model (DOM) del navegador web, sin que el ataque pase por el servidor.
 
+## Level: Low
 ### Características del XSS DOM en DVWA
 
 En el servidor **DVWA** el **XSS DOM** es una vulnerabilidad intencional que permite:
