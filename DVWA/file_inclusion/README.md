@@ -24,4 +24,11 @@ Esta acción es útil si se quiere ejecutar un archivo, si se quiere ejecutar un
 funciona exactamente igual.
 
 ## Mitigación
+  - Validación y sanitización estrica de las entradas.
+  - Normalización de rutas.
+  - Desactivar RFI (allow_url_include=Off) en php.ini.
+  - Configuración de PHP (open_basedir) para restringir los directorios accesibles por PHP.
+  - Restringir permisos.
+  - Configurar WAF.
+
 
