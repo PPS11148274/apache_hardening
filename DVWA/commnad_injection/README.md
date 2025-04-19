@@ -15,4 +15,10 @@ Se podría acceder a otros archivos e incluso borrarlos o modificarlos.
 En este caso DVWA introduce un protección básica. Filtra las entradas buscando **&&** y **;** para eliminarlas. \
 Pero no detecta **&**, así que se usará este parámetro. Se prueba un comando muy similar al anterior pero con **&**, que no es filtrado.
 
+```
+127.0.0.1 & cat /etc/passwd
+```
+
+![Command Injection Medium](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/commnad_injection/asset/com_injection_med.png)
+
 
