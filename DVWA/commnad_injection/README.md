@@ -21,4 +21,11 @@ Pero no detecta **&**, así que se usará este parámetro. Se prueba un comando 
 
 ![Command Injection Medium](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/commnad_injection/asset/com_injection_med.png)
 
+## Mitigación
+  - validación y sanitización de entradas.
+  - Desactivar funciones peligrosas en php.ini.
+  - Ejecutar el servidor en modo de bajo privilegio.
+  - Configurar Modsecurity (WAF).
+  - Restringir permisos del sistema.
+
 
