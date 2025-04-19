@@ -35,4 +35,10 @@ Al pinchar en el enlace se cambia la contraseña automáticamente a "12345".
 
 Se puede comprobar con el botón "Test credentials" que la contraseña "password" ya no funciona, funciona "12345".
 
+## Mitigación
+  - Validación y sanitización de entradas.
+  - Escapado de datos (Output Encoding).
+  - Uso de Content Security Policy (CSP).
+  - Configura WAF.
+  - Configurar Cabeceras HTTP de Seguridad.
 
