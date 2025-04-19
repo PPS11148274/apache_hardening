@@ -14,3 +14,7 @@ En la barra de direcciones se cambia el parámetro **page** y se pone el que se 
 Como se ve en la imagen siguiente, se muestra el contenido del archivo deseado.
 
 ![Muestra /etc/passwd](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/file_inclusion/asset/passwd.png)
+
+## Level: Medium
+
+En este nivel, DVWA intenta eliminar todas las cadenas que se ajustan al formato http://, https://, ../ o ..\., así se protegen contra la inclusión de archivos remotos con las dos primeras cadenas y contra la inclusión de archivos locales con las dos últimas.
