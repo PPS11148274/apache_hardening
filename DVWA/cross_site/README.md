@@ -31,4 +31,7 @@ es cargar el archivo fifa.html desde "File Upload" y ejecutarlo después. (se de
 
 Al pinchar en el enlace se cambia la contraseña automáticamente a "12345".
 
+![Cambia la contraseña](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/cross_site/asset/cambio_contrasena_medium.png)
+
+
 
