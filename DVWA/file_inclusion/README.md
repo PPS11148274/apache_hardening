@@ -18,5 +18,10 @@ Como se ve en la imagen siguiente, se muestra el contenido del archivo deseado.
 ## Level: Medium
 
 En este nivel, DVWA intenta eliminar todas las cadenas que se ajustan al formato http://, https://, ../ o ..\., así se protegen contra la inclusión de archivos remotos con las dos primeras cadenas y contra la inclusión de archivos locales con las dos últimas. \
-La función utilizada para validar las entradas (str_replace()) es sensible a las mayúsculas, así que se puede usar HTTP en vez de http.
+La función utilizada para validar las entradas (str_replace()) es sensible a las mayúsculas, así que se puede usar HTTP en vez de http. \
+
+Esta acción es útil si se quiere ejecutar un archivo, si se quiere ejecutar un comando como en el nivel Low, no es necesario modificar nada, \
+funciona exactamente igual.
+
+## Mitigación
 
