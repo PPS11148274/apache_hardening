@@ -25,4 +25,9 @@ Una vez el usuario pincha en el enlace, la contraseña se cambia a la que se ha 
 ## Level: Medium
 
 En este nivel DVWA introduce un control de entradas muy básico, no se puede utilizar <script> pero si que se puede utilizar <SCRIPT>. \
-Esto es debido a que la función utilizada para el filtrado es sensible a las mayúsculas/minúsculas
+Esto es debido a que la función utilizada **str_replace()** para el filtrado es sensible a las mayúsculas/minúsculas, se introduce en el dialogo:
+```
+<SCRIPT>alert("Te pillé")</SCRIPT>
+```
+
+
