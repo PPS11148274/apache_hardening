@@ -7,7 +7,7 @@ genera un cuadro de dialogo con una alerta.
 ```
 <script>alert("Te pillé")</script>
 ```
-
+![Ejecuta script low](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/refleceted_cross_site/asset/ejecuta_script_low.png)
 ## Level: Medium
 
 En este nivel DVWA introduce un control de entradas muy básico, no se puede utilizar <script> pero si que se puede utilizar <SCRIPT>. \
