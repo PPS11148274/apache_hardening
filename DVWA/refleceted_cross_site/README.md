@@ -20,4 +20,4 @@ El siguiente códio HTML contiene la acción maliciosa que cambiará la contrase
 </html>
 ```
 
-Una vez el usuario pincha en el enlace, la contraseña se cambia a la que se ha asignado en el código moalicioso.
+Una vez el usuario pincha en el enlace, la contraseña se cambia a la que se ha asignado en el código malicioso.
