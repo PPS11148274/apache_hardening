@@ -17,3 +17,7 @@ Sin embargo, debido a que la consulta SQL no tiene comillas alrededor del parám
 El cuadro de texto se ha sustituido por una lista desplegable predefinida y utiliza POST para enviar el formulario. \
 Como se ve en la siguiente imagen, se abre el inspector y se modifica el valor de "value=1" por "1 OR 1=1" y se vuelve a pulsar en **submit.**
 ![Modifica valor](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/sql_injection/asset/modif_valor_medium.png)
+
+En la imagen siguiente, se ve el resultado.
+
+![Resultado](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/sql_injection/asset/resultado_medium.png)
