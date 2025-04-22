@@ -15,3 +15,5 @@ Como se puede ver en la siguiente imagen, si se generan más sesiones, las numer
 ## Level: Medium
 
 En este caso, al generar nuevas sesiones, ya no se numeran de uno en uno, si no con un número bastante largo.
+
+![Nueva sesion](https://github.com/PPS11148274/apache_hardening/blob/main/DVWA/weak_session/asset/gnera_medium_1.png)
