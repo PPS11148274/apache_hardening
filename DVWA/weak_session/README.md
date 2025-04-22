@@ -23,3 +23,10 @@ En este caso, al generar nuevas sesiones, ya no se numeran de uno en uno, si no 
 Si se observa el número con detenimiento, se puede var que es el código de tiempo utilizado por Unix \
 Como se conoce la lógica detrás de la generación de la cookie de sesión, se puede adivinar la sesión del usuario víctima,
 generando el valor de la cookie según el **timestamp** de Unix.
+
+## Mitigación
+
+  - Implementar IDs robustos (al menos 128 bits).
+  - Regeneración de IDs de sesión.
+  - Tiempos de expiración adecuados.
+  - Limitar número de sesiones concurrentes por usuario. 
