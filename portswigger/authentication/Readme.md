@@ -1,7 +1,0 @@
-# Candidate usernames (apprentice)
-![Ilustración 1](https://github.com/PPS11148274/apache_hardening/blob/main/portswigger/authentication/asset/ilus_1.png)
-![Ilustración 2](https://github.com/PPS11148274/apache_hardening/blob/main/portswigger/authentication/asset/ilus_2.png)
-![Ilustración 3](https://github.com/PPS11148274/apache_hardening/blob/main/portswigger/authentication/asset/ilus_3.png)
-![Ilustración 4](https://github.com/PPS11148274/apache_hardening/blob/main/portswigger/authentication/asset/ilus_4.png)
-![Ilustración 5](https://github.com/PPS11148274/apache_hardening/blob/main/portswigger/authentication/asset/ilus_5.png)
-![Ilustración 6](https://github.com/PPS11148274/apache_hardening/blob/main/portswigger/authentication/asset/ilus_6.png)
